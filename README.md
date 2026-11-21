@@ -4,6 +4,15 @@ Fresh UI is a React and TypeScript component library and portfolio project inspi
 
 ## Project structure
 
+### Run locally
+
+```sh
+npm ci
+npm run dev
+```
+
+Open `http://localhost:5173` and choose Strawberry or Avocado. Run `npm run build` to type-check and build the showcase. When hosting the build, configure the server to serve `index.html` for client-side routes such as `/strawberry` and `/avocado`.
+
 Give each fruit or vegetable a top-level folder under `themes/`, named in kebab case. This is the proposed structure for the first collection.
 
 ```text
