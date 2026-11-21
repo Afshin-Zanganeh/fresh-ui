@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Build and test output
+dist/
+build/
+storybook-static/
+coverage/
+*.tsbuildinfo
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Logs and OS files
+*.log
+.DS_Store
